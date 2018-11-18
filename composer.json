@@ -1,0 +1,25 @@
+{
+    "name": "shag/module-grunt",
+    "description": "Shag Grunt Module",
+    "license": "proprietary",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-component",
+    "extra": {
+        "map": [
+            [
+                "Gruntfile.js",
+                "Gruntfile.js"
+            ],
+            [
+                "package.json",
+                "package.json"
+            ],
+            [
+                "configs_override",
+                "dev/tools/grunt/configs_override"
+            ]
+        ]
+    }
+}
